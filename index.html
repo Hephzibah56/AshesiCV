@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER FORM DETAILS</title>
+    <link rel="stylesheet" href="style.css" />
+     
+</head>
+<body>
+    <div id = "errors"></div>
+    <div class = "form-intro"></div>
+    <h2 id ="form-intro"></h2>
+    <p>Please enter your personal details below</p> </div>
+      
+      <form id="addUserDetails" class="Userform-box" name="form" >
+
+        <div class="user_details">
+          <label for="first_name"><b> First Name </b></label>   
+          <input type="text" placeholder="Enter First name" name="first_name" id="first_name" >
+          <div id ="fname_error"> </div>
+        </div>
+
+        <div class="user_details">
+          <label for="middle_name"><b> Middle Name </b></label>   
+          <input type="text" placeholder="Enter Middle name" name="middle_name" id="middle_name" >
+           <div id ="midname_error">  </div>
+        </div>
+        
+        <div class="user_details">
+          <label for="last_name"><b> Last Name </b></label>   
+          <input type="text" placeholder="Enter Last name" name="last_name" id="last_name">
+          <div id ="lname_error"> </div>
+        </div>
+
+        <div class = "gender"> </div>
+        <div id ="gender_error">  </div>
+        <label>Gender</label>
+           <select id = "gender"> 
+             <option value =""></option>
+            <option value = "1">Male</option>
+            <option value = "2">Female</option>
+        </select>
+        
+        <div class = "phone_number"></div>
+          <label for="phone_num"><b> Phone Number </b></label>   
+          <input type="number" placeholder="Enter phone number" name="phone_num" id="phone_num">
+           <div id ="phone_error">  </div>
+        </div>
+
+        <div class = "email"></div>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email">
+          <div id ="email_error"> </div>
+        </div>
+    
+        <div>
+          <label for="address"><b> Address </b></label>   
+          <input type="text" placeholder="Enter your address" name="address" id="address">
+          <div id ="address_error"> </div>
+        </div>
+
+        <div id ="button">
+          <button class="submitbtn"  id ="addUser" type="submit" form="addUserDetails"  value = "submit">Submit</button>
+        </div>
+      	<div class="radio-box" id="error"></div>
+    </div>
+   </form>
+
+   <script src="index.js"> </script>
+</body>
+
+</html>
+
+
+  

@@ -1,0 +1,95 @@
+/* This style sheet contains all the styles to CV.html and index.html tags */
+
+
+body {
+  font-family: verdana;
+  font-size: 11px;
+  color: solid black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+h3{
+  font-size: 8.5px;
+  
+}
+#name{
+  font-size: 14px;
+}
+
+.contact_details {
+  font-size: 8.5px;
+}
+
+.cv_heading{
+  text-align: center;
+}
+
+hr {
+  border: 0.5px solid black;
+}
+
+h5{
+  font-size: 8.5px;
+}
+
+
+/* user form details styling from Index.html file*/
+.Userform-box {
+  background-color:skyblue;
+  color: black;
+  font-size: 13px;
+  font-family: sans-serif;
+  width: 60%;
+  border: 5px solid black;
+  margin: 0%;
+  padding: 16px;
+  display: inline-block;
+  justify-content: center;
+  align-self: center;
+}
+
+
+.Userform-box input {
+  width: 80%;
+  padding: 5px 6px;
+  margin: 2%;
+}
+
+
+/* Set a style for the submit button */
+.Userform-box .submitbtn {
+  background-color: rgb(73, 74, 160);
+  color: white;
+  padding: 5px 6px;
+  text-align: center;
+  margin-left:  30%;
+  border: none;
+  cursor: pointer;
+  width: 60%;
+  
+}
+
+
+.Userform-box label {
+  width: 10%;
+  display: inline-block;
+  font-weight: bold;
+  padding: 5px 6px;
+  margin: 2%;
+}
+
+#gender{
+    display: inline-block;
+    padding: 5px 6px;
+    margin: 2%;
+    width: 50%;
+
+    
+}
+
+
+
