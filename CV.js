@@ -1,5 +1,6 @@
-
-
+/* This function stores the unique elements with ID into variables
+ which are equated to the innerHTML
+*/
 function getUserData(){
   let First   = localStorage.getItem("first_name");
   let MiddleN = localStorage.getItem("middle_name");
@@ -15,6 +16,5 @@ function getUserData(){
   document.getElementById("number").innerHTML = PhoneN;
   document.getElementById("email").innerHTML = Email;
 } 
-
 
 getUserData();
